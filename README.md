@@ -16,10 +16,17 @@ to your `composer.json` file:
 
 ```json
 {
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:RazmikSaghoyan/omnipay-manual.git"
+        }
+    ],
     "require": {
-        "omnipay/manual": "~2.0"
+        "omnipay/manual": "dev-master",
     }
 }
+
 ```
 
 And run composer to update your dependencies:
